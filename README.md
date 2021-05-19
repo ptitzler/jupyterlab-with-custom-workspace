@@ -1,6 +1,14 @@
 # jupyterlab-with-custom-workspace
 
 
+## Clone this repository
+
+1. Run
+
+   ```
+   $ git clone ...
+   ```
+
 ## Build the container image
 
 1. Run
