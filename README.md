@@ -55,10 +55,18 @@
 
 1. Copy the content of the desired `.jupyterlab-workspace` file into the `lab_workspace.json` file on your machine. 
 
+1. Exit the bash shell to end `docker exec -it ...`.
+
+1. Stop the JupyterLab container.
+
+   ```
+   $ docker stop <id>
+   ```
+
 1. Edit the `lab_workspace.json` file on your machine, replacing
 
    ```
-   "metadata":{"id":"default"}
+   "metadata":{"id":"whatever-it-says-here"}
    ```
    with
 
